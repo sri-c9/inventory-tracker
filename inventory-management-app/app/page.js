@@ -2,7 +2,14 @@
 import Image from "next/image";
 
 import { useState, useEffect } from "react";
-import { collection, getDocs, getDoc, doc, setDoc } from "firebase/firestore";
+import {
+  collection,
+  getDocs,
+  getDoc,
+  doc,
+  setDoc,
+  deleteDoc,
+} from "firebase/firestore";
 import firestore from "@/firebase";
 
 import {
