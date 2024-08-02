@@ -167,6 +167,13 @@ export default function Home() {
                 </Typography>
                 <Button
                   onClick={() => {
+                    addItem(name);
+                  }}
+                >
+                  Add
+                </Button>
+                <Button
+                  onClick={() => {
                     removeItem(name);
                   }}
                 >
